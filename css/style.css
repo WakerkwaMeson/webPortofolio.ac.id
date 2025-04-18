@@ -1,0 +1,203 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    color: #000000;
+  }
+  
+  /* .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    margin: 1rem;
+    z-index: 1001;
+  }
+  
+  .hamburger span {
+    height: 4px;
+    background: rgb(29, 22, 22);
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s ease;
+  } */
+
+  /* Saat hamburger aktif (jadi X) */
+/* .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  } */
+  
+  /* .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+  
+  /* Untuk perangkat mobile */
+  /* @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    } */ */
+  
+    /* .navbar {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #1e1e2f;
+      width: 100%;
+      z-index: 1000;
+    }
+  
+    .navbar.active {
+      display: block;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+    } */
+  /* } */
+  
+
+
+
+  .hero {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ec0000;
+  }
+  
+  .navbar {
+    background: #222;
+    padding: 12px 0;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 18px;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #f8b500;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 45%;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  form button {
+    background: #2575fc;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #120097;
+    background-color: #ec0000;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(to right, #0b0381, #004e92);
+    color: #887f7f;
+  }
+  
+  .social-media a {
+    color: #fcfcfc;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #f8b500;
+  }
+  
